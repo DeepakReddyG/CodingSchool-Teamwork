@@ -55,6 +55,9 @@
 .one a {
     text-decoration: none;
 }
+.one a:hover{
+    color: red;
+}
 
 
 .wingnames {
