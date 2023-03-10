@@ -10,13 +10,35 @@
     background-color: whitesmoke;
     height: 7vh;
 }
-.two {
-    background-color: whitesmoke; 
-}
-.two img {
-    width: 50%;
 
+marquee {
+    border: 2px solid black;
 }
+
+
+.two {
+    display: flex;
+}
+.two-one {
+    width: 50%;
+}
+.two-one img {
+    width: 100%;
+}
+.two-two {
+    width: 50%;
+    text-align: center;
+}
+.two-two h1{
+    font-size: 72px;
+    background: -webkit-linear-gradient(rgb(151, 0, 3), #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin-top: 100px;
+}
+
+
 .three {
     background-color: white;
     height: 90vh;
